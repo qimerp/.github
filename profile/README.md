@@ -6,7 +6,7 @@ Multi-tenant ERP by **[Q-FACE Solutions](https://github.com/qimerp)** — People
 
 | Area | Repositories |
 | --- | --- |
-| Backend services | `QimErp.CoreHr`, `QimErp.Finance`, `QimErp.IAM`, `QimErp.Operations`, `QimErp.Payroll`, `QimErp.Learning`, `QimErp.Performance`, `QimErp.Platform` |
+| Backend services | `QimErp.CoreHr`, `QimErp.Finance`, `QimErp.IAM`, `QimErp.Operations`, `QimErp.Payroll`, `QimErp.Learning`, `QimErp.Performance`, `QimErp.Core.Reporting` |
 | Shared SDK / gateway | `QFace.Sdk`, `QimErp.Proxy` |
 | Frontend zones | `qimerp-*-web`, `qimerp-web-foundation` |
 | Mobile | `qimerp-ess-mobile` |
