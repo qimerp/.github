@@ -6,9 +6,11 @@ Multi-tenant ERP by **[Q-FACE Solutions](https://github.com/qimerp)** — People
 
 | Area | Repositories |
 | --- | --- |
-| Backend services | `QimErp.CoreHr`, `QimErp.Finance`, `QimErp.IAM`, `QimErp.Operations`, `QimErp.Payroll`, `QimErp.Learning`, `QimErp.Performance`, `QimErp.Core.Reporting` |
+| Platform & operator | `QimErp.Platform` (auth, tenancy, billing, onboarding — formerly IAM), `QimErp.Operator` |
+| Backend services | `QimErp.CoreHr`, `QimErp.Finance`, `QimErp.Operations`, `QimErp.Payroll`, `QimErp.Learning`, `QimErp.Performance`, `QimErp.HROperations`, `QimErp.Core.Reporting` |
 | Shared SDK / gateway | `QFace.Sdk`, `QimErp.Proxy` |
-| Frontend zones | `qimerp-*-web`, `qimerp-web-foundation` |
+| Frontend zones | `qimerp-people-web`, `qimerp-finance-web`, `qimerp-payroll-web`, `qimerp-operations-web`, `qimerp-performance-web`, `qimerp-learning-web`, `qimerp-operator-web`, `qimerp-tenant-admin-web`, `qimerp-self-service-web`, `qimerp-pos-web`, `qimerp-saas-frontend`, `qimerp-web-foundation` |
+| Design | `qimerp-ux-designs` |
 | Mobile | `qimerp-ess-mobile` |
 | Infrastructure | `qimerp-infra` |
 
@@ -19,6 +21,7 @@ Default integration branch across product repos is **`development`**.
 - One coherent product, split into independently deployable services and Next.js apps
 - Shared identity, tenant/company context, shell, and design system via foundation packages
 - Contabo runtime + self-hosted CI (`qimerp-ci`) — see `qimerp-infra`
+- Deployed bare-metal service names match projects where cut over (e.g. `qimerp-platform`, `qimerp-operator`)
 
 ## Teams
 
