@@ -1,33 +1,23 @@
 # QimERP
 
-Multi-tenant ERP by **[Q-FACE Solutions](https://github.com/qimerp)** — People, Finance, Payroll, Operations, Performance, Learning, plus tenant and platform administration.
+**QimERP** is a multi-tenant ERP platform by [Q-FACE Solutions](https://github.com/qimerp) — built for organisations that need People, Finance, Payroll, Operations, Performance, Learning, and administration in one coherent product.
 
-## Product surface
+## What we build
 
-| Area | Repositories |
-| --- | --- |
-| Platform & operator | `QimErp.Platform` (auth, tenancy, billing, onboarding — formerly IAM), `QimErp.Operator` |
-| Backend services | `QimErp.CoreHr`, `QimErp.Finance`, `QimErp.Operations`, `QimErp.Payroll`, `QimErp.Learning`, `QimErp.Performance`, `QimErp.HROperations`, `QimErp.Core.Reporting` |
-| Shared SDK / gateway | `QFace.Sdk`, `QimErp.Proxy` |
-| Frontend zones | `qimerp-people-web`, `qimerp-finance-web`, `qimerp-payroll-web`, `qimerp-operations-web`, `qimerp-performance-web`, `qimerp-learning-web`, `qimerp-operator-web`, `qimerp-tenant-admin-web`, `qimerp-self-service-web`, `qimerp-pos-web`, `qimerp-saas-frontend`, `qimerp-web-foundation` |
-| Design | `qimerp-ux-designs` |
-| Mobile | `qimerp-ess-mobile` |
-| Infrastructure | `qimerp-infra` |
+- Secure multi-tenant identity and workspace administration
+- Domain modules for HR, finance, payroll, and operations
+- Modern web experiences for tenants, employees, and operators
 
-Default integration branch across product repos is **`development`**.
+## About Q-FACE Solutions
 
-## How we work
+We design and deliver enterprise software with a focus on reliability, clear product boundaries, and long-term maintainability.
 
-- One coherent product, split into independently deployable services and Next.js apps
-- Shared identity, tenant/company context, shell, and design system via foundation packages
-- Contabo runtime + self-hosted CI (`qimerp-ci`) — see `qimerp-infra`
-- Deployed bare-metal service names match projects where cut over (e.g. `qimerp-platform`, `qimerp-operator`)
+Based in **Ghana**.
 
-## Teams
+## Contact
 
-- **core-engineering** — maintainers across the product
-- **backend** — microservices and SDK
-- **frontend** — zone apps and foundation
-- **platform-infra** — runtime, CI, and shared platform
+For partnership or product inquiries, reach out via [Q-FACE Solutions](https://github.com/qimerp).
 
-> Most application repositories are private. Public entry points today include `QFace.Sdk` and `QimErp.Proxy`.
+---
+
+*Application source repositories are private. Public SDKs and shared libraries may appear separately when intentionally published.*
